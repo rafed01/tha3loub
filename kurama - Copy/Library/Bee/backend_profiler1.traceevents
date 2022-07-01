@@ -1,0 +1,519 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1656495578116446, "dur":1546, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495578118000, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1656495578118047, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1656495578118062, "dur":641, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1656495578118733, "dur":537, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495578119270, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579204871, "dur":319, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205191, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205205, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205207, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205213, "dur":49, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205262, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205267, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205269, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205274, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205276, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205282, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205284, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205289, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205291, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205296, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205297, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205301, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205302, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205309, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205316, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205318, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205328, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205332, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205343, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205366, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579205451, "dur":2509, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1656495578119433, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578119433, "dur":5969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578125403, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1656495578125558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578127676, "dur":14267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1656495578141986, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1656495578142130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578142139, "dur":13068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1656495578155241, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578155347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578155499, "dur":56064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578211603, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578211640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578211647, "dur":95643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578307405, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578307453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578307463, "dur":54085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578361598, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578361638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578361646, "dur":66421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578428166, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578428205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578428212, "dur":32323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578460569, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578460602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578460640, "dur":4483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578465162, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578466319, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578466331, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578468143, "dur":996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578469147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578469157, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578470310, "dur":80270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578550588, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578550601, "dur":53375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578604017, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578604052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495578604060, "dur":56621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495578660803, "dur":348286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495579009096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656495579009104, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656495579011092, "dur":193802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578119360, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578119360, "dur":5960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578125325, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1656495578125559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578132175, "dur":6959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1656495578139172, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656495578139320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578139384, "dur":8250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656495578147671, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1656495578147804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578147813, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1656495578150730, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1656495578150842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578150849, "dur":7514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1656495578158423, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578158606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578158613, "dur":193291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578351946, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578351985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578351994, "dur":20642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578372681, "dur":1411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578374101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578374111, "dur":25779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578399930, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578399980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578400114, "dur":39185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578439341, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578439378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578439386, "dur":40669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578480093, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578481209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578481221, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578483880, "dur":54019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578537906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578537917, "dur":7836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578545787, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578545819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578545827, "dur":54819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578600682, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578600714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578600722, "dur":29396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578630166, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578630207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578630255, "dur":59632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578689927, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578689965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495578689974, "dur":239595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495578929606, "dur":109968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495579039580, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656495579039595, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656495579041362, "dur":163505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578119186, "dur":111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578119297, "dur":6027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578125325, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656495578125781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578166803, "dur":7846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656495578174691, "dur":1139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1656495578175836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578176179, "dur":153287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1656495578329513, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578329566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578329577, "dur":98498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578428137, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578428179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578428188, "dur":73691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578501912, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578502029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578502035, "dur":42532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578544608, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578544647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578544654, "dur":36715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578581452, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578581505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578581512, "dur":104150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578685699, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578685734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578685741, "dur":94561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578780333, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578780367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578780374, "dur":53111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578833522, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578833580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578833590, "dur":63126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578896749, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495578896782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656495578896790, "dur":240738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656495579137551, "dur":67321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578119163, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578119283, "dur":6039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578125325, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1656495578125733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578149829, "dur":25586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1656495578175672, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578175761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578181781, "dur":126553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578308371, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578308406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578308412, "dur":24969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578333420, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578333459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578333502, "dur":26635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578360183, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578360214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578360222, "dur":66998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578427257, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578427292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578427301, "dur":56512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578483848, "dur":59263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578543119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578543132, "dur":36394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578579622, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578579667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578579678, "dur":43442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578623155, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578623191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578623199, "dur":25763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578648997, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578649034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578649040, "dur":41051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578690125, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578690157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578690164, "dur":65267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578755466, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578755500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578755509, "dur":34934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578790480, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495578790515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656495578790523, "dur":214999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656495579005687, "dur":199200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578119279, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578119280, "dur":6024, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578125324, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1656495578125327, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578125521, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1656495578125559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578131742, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1656495578137278, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1656495578137415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578137989, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1656495578140263, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1656495578140390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578140397, "dur":7099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1656495578147540, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656495578147679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578147713, "dur":213377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656495578361139, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578361190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578361198, "dur":35997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578397230, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578397266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578397274, "dur":104943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578502257, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578502292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578502297, "dur":80667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578583001, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578583036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578583045, "dur":40707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578623786, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578623817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578623825, "dur":23254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578647119, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578647155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578647164, "dur":52294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578699497, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578699531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578699576, "dur":92626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578792241, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578792277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578792285, "dur":173263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656495578965591, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1656495578965638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578965679, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1656495578967622, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656495578967659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578967665, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656495578969770, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656495578969814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578969822, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656495578971373, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1656495578971497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578971532, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1656495578972607, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1656495578973801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578973811, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1656495578975265, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656495578975296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578975303, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656495578977700, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656495578977731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578977737, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656495578979240, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1656495578979276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578979283, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1656495578980710, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656495578980745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578980753, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656495578982563, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1656495578982698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578982706, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1656495578985121, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656495578985239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656495578985245, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656495578987467, "dur":217424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578119345, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578119346, "dur":5979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578125326, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656495578125625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578146373, "dur":28178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656495578174597, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example.exe" }}
+,{ "pid":12345, "tid":6, "ts":1656495578174653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578174656, "dur":151152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example.exe" }}
+,{ "pid":12345, "tid":6, "ts":1656495578325881, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578326018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578326027, "dur":26088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578352150, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578352182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578352189, "dur":73111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578425337, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578425373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578425382, "dur":56896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578482337, "dur":1698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578484041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578484051, "dur":8841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578492929, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578494007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578494020, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578499696, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578500665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578500676, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578504264, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578504303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578504312, "dur":101260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578605610, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578605677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578605685, "dur":52214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578658006, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578658045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578658053, "dur":43340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578701430, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578701465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578701472, "dur":157758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578859265, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495578859303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656495578859312, "dur":161243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656495579020589, "dur":184282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578119415, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578119416, "dur":5902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578125327, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656495578125558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578127838, "dur":81365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656495578209245, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578209284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578209317, "dur":96281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578305646, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578305689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578305699, "dur":40856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578346594, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578346638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578346648, "dur":25259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578371941, "dur":180952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578552900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578552910, "dur":45016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578597979, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578598016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578598025, "dur":60860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578658919, "dur":208265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578867190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578867200, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578869488, "dur":51922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578921441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578921451, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578925803, "dur":2508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495578928321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656495578928332, "dur":103481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656495579031849, "dur":173042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578119479, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578119480, "dur":5934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578125415, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1656495578125744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578151982, "dur":50129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1656495578202369, "dur":99334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578301709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578301718, "dur":6450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578308213, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578308273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578308283, "dur":62504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578370827, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578370863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578370871, "dur":79416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578450319, "dur":52014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578502336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578502423, "dur":31943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578534410, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578534460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578534468, "dur":84164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578618689, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578618730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578618739, "dur":123329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578742998, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578743036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578743045, "dur":129337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578872414, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578872450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578872458, "dur":14002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578886496, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495578886529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656495578886537, "dur":318244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656495579204819, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1656495579204822, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578119540, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578119540, "dur":5806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578125347, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1656495578125693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578149220, "dur":25156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1656495578174419, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1656495578174565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578174572, "dur":134372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1656495578308990, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578309137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578309147, "dur":42109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578351296, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578351330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578351361, "dur":26353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578377747, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578377787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578377858, "dur":73574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578451469, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578451503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578451511, "dur":92398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578543949, "dur":86532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578630486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578630494, "dur":6445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578637005, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578637041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578637049, "dur":141461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578778549, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578778584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578778624, "dur":103236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578881892, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578882006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495578882015, "dur":45509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495578927558, "dur":138200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495579065763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656495579065770, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656495579067410, "dur":137457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578119598, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578119599, "dur":5821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578125421, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1656495578125611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578143322, "dur":14283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1656495578157642, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578157772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578157813, "dur":176889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578334744, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578334834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578334845, "dur":63098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578397982, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578398015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578398024, "dur":40571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578438630, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578438666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578438674, "dur":25794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578464510, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578464558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578464567, "dur":32359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578496965, "dur":1869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578498841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578498851, "dur":40033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578538928, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578538971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578538979, "dur":43004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578582023, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578582059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578582068, "dur":34930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578617041, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578617091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578617101, "dur":21281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578638418, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578638454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578638462, "dur":36530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578675027, "dur":23643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578698676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578698685, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578701992, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578702062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578702072, "dur":151580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578853690, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578853722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495578853730, "dur":108302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495578962064, "dur":43860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495579005930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656495579005941, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656495579009249, "dur":195620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578119642, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578119642, "dur":5702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578125348, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1656495578125590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578136946, "dur":259112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1656495578396096, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578396132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578396140, "dur":109509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578505686, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578505726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578505734, "dur":76855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578582638, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578582677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578582686, "dur":42747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578625472, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578625510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578625520, "dur":24350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578649910, "dur":53522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578703438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578703449, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578704484, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578704515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578704523, "dur":83739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578788304, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495578788344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656495578788353, "dur":219797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656495579008213, "dur":196673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578119698, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578119698, "dur":5725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578125423, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1656495578125607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578141695, "dur":229498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1656495578371299, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578371348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578371356, "dur":173182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578544583, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578544621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578544629, "dur":52339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578597007, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578597047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578597055, "dur":51900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578648994, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578649032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578649040, "dur":197171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578846243, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495578846276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656495578846284, "dur":169399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafed/Desktop/New folder/2D Game Example_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656495579015828, "dur":189037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656495579210105, "dur":2219, "ph":"X", "name": "ProfilerWriteOutput" }
+,
