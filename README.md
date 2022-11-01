@@ -1,5 +1,5 @@
 # tha3loub
-![alt text](Screenshot from 2022-10-27 23-32-38.png)
+![alt text](https://github.com/rafed01/tha3loub/blob/main/Screenshot%20from%202022-10-27%2023-32-38.png)
 
 This is my EOY project at holbertonschool
 
