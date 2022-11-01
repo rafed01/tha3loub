@@ -1,5 +1,5 @@
 # tha3loub
-![alt text](https://drive.google.com/file/d/1HsRL6TiysBoHneWGIQcepv_Ljg9OKWLX/view?usp=sharing)
+![screenshot](Screenshot from 2022-10-27 23-32-38.png)
 
 This is my EOY project at holbertonschool
 
